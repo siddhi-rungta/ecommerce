@@ -1,0 +1,134 @@
+.containerr {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+header {
+  background-color: #9a618c;
+  color: #fff;
+  padding: 10px 0;
+  height: 50px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 20px;
+  position: fixed;
+}
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold; 
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+.logo{
+    height: 300px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.preview{
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  margin-bottom: 10px; 
+}
+.picture1{
+  width: 200px; 
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 300px;
+    transition: 0.3s;
+}
+.picture1:hover{
+  width: 210px;
+  height: 315px; 
+}
+.checked{
+  color: orange;
+}
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #9a618c;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-radius: 4px;
+  border-color: none;
+}
+.cta-button:hover {
+  background-color: #7e5b74;
+  color: #fff;
+  border-color: white;
+}
+.title{
+  width: 300px;
+}
+.lin:link, .lin:visited {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+.button1{
+  background-color: rgb(167, 4, 4);
+  color: white;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 2px;
+}
+.point:hover{
+  cursor: pointer;
+  text-decoration: underline; 
+}
+* {box-sizing: border-box;}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #9a618c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #b8539f;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: left;
+}
